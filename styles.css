@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('1921102.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Models Section */
+.models {
+    padding: 2rem;
+    text-align: center;
+}
+
+.models .model {
+    margin: 1rem 0;
+}
+
+/* Features Section */
+.features {
+    padding: 2rem;
+    background-image: url(500.jfif);
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
